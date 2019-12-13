@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampResourcesApp.Lowrider"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+                <Image Source="UWPImages/lowImg.png" />
+            </StackLayout>
+
+            <ScrollView>
+                <StackLayout HorizontalOptions="Start">
+
+                    <SearchBar Placeholder="Search items..."
+                       CancelButtonColor="Orange"
+                       PlaceholderColor="Orange"
+                       TextColor="Orange"
+                       HorizontalTextAlignment="Center"
+                       FontSize="Medium"
+                       FontAttributes="Italic" />
+
+                    <!-- ID 536-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_536.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Blade" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 536" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- ID 575-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_575.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Broadway" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 575" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- ID 534-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_534.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Remington" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 534" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- ID 567-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_567.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Savanna" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 567" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- ID 535-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_535.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Slamvan" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 535" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- ID 576-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_576.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Tornado" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 576" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- ID 412-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_412.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Voodoo" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 412" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

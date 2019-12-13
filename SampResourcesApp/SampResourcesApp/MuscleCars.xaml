@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampResourcesApp.MuscleCars"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+                <Image Source="UWPImages/muscleImg.png" />
+            </StackLayout>
+
+            <ScrollView>
+                <StackLayout HorizontalOptions="Start">
+
+                    <SearchBar Placeholder="Search items..."
+                       CancelButtonColor="Orange"
+                       PlaceholderColor="Orange"
+                       TextColor="Orange"
+                       HorizontalTextAlignment="Center"
+                       FontSize="Medium"
+                       FontAttributes="Italic" />
+
+                    <!-- ID 402-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_402.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Buffalo" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 402" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- ID 542-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_542.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Clover" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 542" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- ID 603-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_603.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Phoneix" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 603" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- ID 475-->
+                    <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                            <Image Source="UWPImages/ID_475.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="Name: Sabre" HorizontalOptions="Center"/>
+                                    <Label Text="ID: 475" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

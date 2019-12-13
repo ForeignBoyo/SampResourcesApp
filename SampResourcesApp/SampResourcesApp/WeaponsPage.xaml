@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampResourcesApp.WeaponsPage"
+             BackgroundColor="black">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+                <Image Source="UWPImages/weaponImg.png" />
+            </StackLayout>
+
+
+            <SearchBar Placeholder="Search items..."
+               CancelButtonColor="Orange"
+               PlaceholderColor="Black"
+               BackgroundColor="White"
+               TextColor="Black"
+               HorizontalTextAlignment="Center"
+               FontSize="Medium"
+               FontAttributes="Italic" />
+
+            <ScrollView>
+                <StackLayout Orientation="Horizontal">
+
+                    <StackLayout> 
+                        <!-- ID 0-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                        <StackLayout>
+                            <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_0.png" />
+                            <Frame BorderColor="Gray"  CornerRadius="5">
+                                <StackLayout>
+                                    <Label Text="ID: 0" HorizontalOptions="Center"/>
+                                    <Label Text="Name: Unarmed" HorizontalOptions="Center"/>
+                                    <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+                        <!-- ID 1-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_1.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 1" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Brass Knuckles" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 2-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_2.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 2" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Golf club" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 3-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_3.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 3" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Nite stick" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 4-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_4.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 4" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Knife" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 5-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_5.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 5" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Baseball bat" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 6-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_6.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 6" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Shovel" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 7-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_7.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 7" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Pool cue" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 8-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_8.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 8" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Kantana" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 9-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_9.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 9" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Chainsaw" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 10-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_10.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 10" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Purple dildo" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                       
+                    </StackLayout>
+
+                    <StackLayout BackgroundColor="Gray">
+                        
+                    </StackLayout>
+
+                    <StackLayout>
+
+                        <!-- ID 11-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_11.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 11" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Short vibrator" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 12-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_12.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 12" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Long vibrator" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 13-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_13.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 13" HorizontalOptions="Center"/>
+                                        <Label Text="Name: White dildo" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 14-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_14.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 14" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Flowers" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 15-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_15.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 15" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Cane" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Melee" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 16-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_16.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 16" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Grenades" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Thrown" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 17-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_17.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 17" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Tear gas" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Thrown" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 18-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_18.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 18" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Molotov cocktail" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Thrown" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 22-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_22.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 22" HorizontalOptions="Center"/>
+                                        <Label Text="Name: 9mm Pistol" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Pistols" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 23-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_23.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 23" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Silenced pistol" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Pistols" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 24-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_24.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 24" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Desert eagle" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Pistols" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        
+
+
+                    </StackLayout>
+
+                    <StackLayout>
+                        <!-- ID 25-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_25.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 25" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Shotgun" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Shotguns" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 26-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_26.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 26" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Sawn-off shotgun" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Shotguns" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 27-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_27.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 27" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Combat shotgun" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Shotguns" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 28-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_28.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 28" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Micro Uzi (Mac 10)" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Sub-machine guns" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 29-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_29.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 29" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Mp5" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Sub-machine guns" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 30-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_30.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 30" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Ak47" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Assault rifles" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 31-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_31.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 31" HorizontalOptions="Center"/>
+                                        <Label Text="Name: M4" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Assault rifles" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 32-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_32.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 32" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Tec 9" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Sub-machine guns" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 33-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_33.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 33" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Country rifle" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Rifles" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 34-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_34.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 34" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Sniper rifle" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Rifles" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 35-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_35.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 35" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Rpg" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Heavy weapons" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        
+
+                    </StackLayout>
+
+                    <StackLayout>
+                        <!-- ID 36-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_36.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 36" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Heat seeking rocket" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Heavy weapons" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 37-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_37.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 37" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Flame-thrower" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Heavy weapons" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 38-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_38.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 38" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Mini gun" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Heavy weapons" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 39-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_39.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 39" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Satchel charges" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Thrown" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 40-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_40.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 40" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Detonator" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Special" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 41-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_41.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 41" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Spray can" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Apparel" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 42-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_42.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 42" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Fire extinguisher" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Apparel" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 43-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_43.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 43" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Camera" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Apparel" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 44-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_44.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 44" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Night vision" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Apparel" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 45-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_45.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 45" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Thermal goggles" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Apparel" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <!-- ID 46-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_46.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="ID: 46" HorizontalOptions="Center"/>
+                                        <Label Text="Name: Parachute" HorizontalOptions="Center"/>
+                                        <Label Text="Category: Apparel" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                    </StackLayout>
+
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

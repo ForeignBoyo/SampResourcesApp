@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampResourcesApp.MainCharacters">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <ScrollView>
+                <StackLayout HorizontalOptions="Start">
+
+                    <Label Text="Police/Law enforcment" FontSize="Medium"/>
+
+                    <StackLayout HorizontalOptions="Start">
+
+                        <!-- ID 274-->
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="ID_S0.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 280" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_275.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 280" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_276.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 280" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_277.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 277" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_278.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 278" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_279.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 279" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_280.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 280" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_280.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 280" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_280.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 280" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_280.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 280" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                    </StackLayout>
+
+                    <StackLayout>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_280.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 280" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_280.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 280" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+
+
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_281.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 280" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_282.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 282" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_283.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 283" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_284.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 284" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_285.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 285" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_286.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 286" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_287.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 287" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="Gray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="S_288.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Uranus" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 288" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                    </StackLayout>
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

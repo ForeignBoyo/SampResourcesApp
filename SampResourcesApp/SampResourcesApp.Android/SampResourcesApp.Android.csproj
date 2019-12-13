@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67C47611-986C-4E20-916F-CDA91682EE04}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SampResourcesApp.Droid</RootNamespace>
+    <AssemblyName>SampResourcesApp.Android</AssemblyName>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Android.Support.v4" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="27.0.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Tabbar.axml" />
+    <AndroidResource Include="Resources\layout\Toolbar.axml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\icon.xml" />
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\icon_round.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SampResourcesApp\SampResourcesApp.csproj">
+      <Project>{3EF9C17B-A0B1-48A0-96F2-E19C16EFAFAE}</Project>
+      <Name>SampResourcesApp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_411.png" />
+    <AndroidResource Include="Resources\drawable\ID_415.png" />
+    <AndroidResource Include="Resources\drawable\ID_429.png" />
+    <AndroidResource Include="Resources\drawable\ID_434.png" />
+    <AndroidResource Include="Resources\drawable\ID_451.png" />
+    <AndroidResource Include="Resources\drawable\ID_477.png" />
+    <AndroidResource Include="Resources\drawable\ID_480.png" />
+    <AndroidResource Include="Resources\drawable\ID_494.png" />
+    <AndroidResource Include="Resources\drawable\ID_502.png" />
+    <AndroidResource Include="Resources\drawable\ID_503.png" />
+    <AndroidResource Include="Resources\drawable\ID_506.png" />
+    <AndroidResource Include="Resources\drawable\ID_541.png" />
+    <AndroidResource Include="Resources\drawable\ID_555.png" />
+    <AndroidResource Include="Resources\drawable\ID_558.png" />
+    <AndroidResource Include="Resources\drawable\ID_559.png" />
+    <AndroidResource Include="Resources\drawable\ID_560.png" />
+    <AndroidResource Include="Resources\drawable\ID_561.png" />
+    <AndroidResource Include="Resources\drawable\ID_562.png" />
+    <AndroidResource Include="Resources\drawable\ID_565.png" />
+    <AndroidResource Include="Resources\drawable\ID_400.png" />
+    <AndroidResource Include="Resources\drawable\ID_401.png" />
+    <AndroidResource Include="Resources\drawable\ID_402.png" />
+    <AndroidResource Include="Resources\drawable\ID_403.png" />
+    <AndroidResource Include="Resources\drawable\ID_404.png" />
+    <AndroidResource Include="Resources\drawable\ID_405.png" />
+    <AndroidResource Include="Resources\drawable\ID_406.png" />
+    <AndroidResource Include="Resources\drawable\ID_407.png" />
+    <AndroidResource Include="Resources\drawable\ID_408.png" />
+    <AndroidResource Include="Resources\drawable\ID_409.png" />
+    <AndroidResource Include="Resources\drawable\ID_410.png" />
+    <AndroidResource Include="Resources\drawable\ID_412.png" />
+    <AndroidResource Include="Resources\drawable\ID_413.png" />
+    <AndroidResource Include="Resources\drawable\ID_414.png" />
+    <AndroidResource Include="Resources\drawable\ID_416.png" />
+    <AndroidResource Include="Resources\drawable\ID_417.png" />
+    <AndroidResource Include="Resources\drawable\ID_418.png" />
+    <AndroidResource Include="Resources\drawable\ID_419.png" />
+    <AndroidResource Include="Resources\drawable\ID_420.png" />
+    <AndroidResource Include="Resources\drawable\ID_421.png" />
+    <AndroidResource Include="Resources\drawable\ID_422.png" />
+    <AndroidResource Include="Resources\drawable\ID_423.png" />
+    <AndroidResource Include="Resources\drawable\ID_424.png" />
+    <AndroidResource Include="Resources\drawable\ID_425.png" />
+    <AndroidResource Include="Resources\drawable\ID_426.png" />
+    <AndroidResource Include="Resources\drawable\ID_427.png" />
+    <AndroidResource Include="Resources\drawable\ID_428.png" />
+    <AndroidResource Include="Resources\drawable\ID_430.png" />
+    <AndroidResource Include="Resources\drawable\ID_431.png" />
+    <AndroidResource Include="Resources\drawable\ID_432.png" />
+    <AndroidResource Include="Resources\drawable\ID_433.png" />
+    <AndroidResource Include="Resources\drawable\ID_436.png" />
+    <AndroidResource Include="Resources\drawable\ID_437.png" />
+    <AndroidResource Include="Resources\drawable\ID_438.png" />
+    <AndroidResource Include="Resources\drawable\ID_439.png" />
+    <AndroidResource Include="Resources\drawable\ID_440.png" />
+    <AndroidResource Include="Resources\drawable\ID_441.png" />
+    <AndroidResource Include="Resources\drawable\ID_442.png" />
+    <AndroidResource Include="Resources\drawable\ID_443.png" />
+    <AndroidResource Include="Resources\drawable\ID_444.png" />
+    <AndroidResource Include="Resources\drawable\ID_445.png" />
+    <AndroidResource Include="Resources\drawable\ID_446.png" />
+    <AndroidResource Include="Resources\drawable\ID_447.png" />
+    <AndroidResource Include="Resources\drawable\ID_448.png" />
+    <AndroidResource Include="Resources\drawable\ID_452.png" />
+    <AndroidResource Include="Resources\drawable\ID_453.png" />
+    <AndroidResource Include="Resources\drawable\ID_454.png" />
+    <AndroidResource Include="Resources\drawable\ID_455.png" />
+    <AndroidResource Include="Resources\drawable\ID_456.png" />
+    <AndroidResource Include="Resources\drawable\ID_457.png" />
+    <AndroidResource Include="Resources\drawable\ID_458.png" />
+    <AndroidResource Include="Resources\drawable\ID_459.png" />
+    <AndroidResource Include="Resources\drawable\ID_460.png" />
+    <AndroidResource Include="Resources\drawable\ID_461.png" />
+    <AndroidResource Include="Resources\drawable\ID_462.png" />
+    <AndroidResource Include="Resources\drawable\ID_463.png" />
+    <AndroidResource Include="Resources\drawable\ID_464.png" />
+    <AndroidResource Include="Resources\drawable\ID_465.png" />
+    <AndroidResource Include="Resources\drawable\ID_466.png" />
+    <AndroidResource Include="Resources\drawable\ID_467.png" />
+    <AndroidResource Include="Resources\drawable\ID_468.png" />
+    <AndroidResource Include="Resources\drawable\ID_469.png" />
+    <AndroidResource Include="Resources\drawable\ID_470.png" />
+    <AndroidResource Include="Resources\drawable\ID_471.png" />
+    <AndroidResource Include="Resources\drawable\ID_472.png" />
+    <AndroidResource Include="Resources\drawable\ID_473.png" />
+    <AndroidResource Include="Resources\drawable\ID_474.png" />
+    <AndroidResource Include="Resources\drawable\ID_475.png" />
+    <AndroidResource Include="Resources\drawable\ID_476.png" />
+    <AndroidResource Include="Resources\drawable\ID_478.png" />
+    <AndroidResource Include="Resources\drawable\ID_479.png" />
+    <AndroidResource Include="Resources\drawable\ID_481.png" />
+    <AndroidResource Include="Resources\drawable\ID_482.png" />
+    <AndroidResource Include="Resources\drawable\ID_483.png" />
+    <AndroidResource Include="Resources\drawable\ID_484.png" />
+    <AndroidResource Include="Resources\drawable\ID_485.png" />
+    <AndroidResource Include="Resources\drawable\ID_486.png" />
+    <AndroidResource Include="Resources\drawable\ID_487.png" />
+    <AndroidResource Include="Resources\drawable\ID_488.png" />
+    <AndroidResource Include="Resources\drawable\ID_489.png" />
+    <AndroidResource Include="Resources\drawable\ID_490.png" />
+    <AndroidResource Include="Resources\drawable\ID_491.png" />
+    <AndroidResource Include="Resources\drawable\ID_492.png" />
+    <AndroidResource Include="Resources\drawable\ID_493.png" />
+    <AndroidResource Include="Resources\drawable\ID_495.png" />
+    <AndroidResource Include="Resources\drawable\ID_496.png" />
+    <AndroidResource Include="Resources\drawable\ID_497.png" />
+    <AndroidResource Include="Resources\drawable\ID_498.png" />
+    <AndroidResource Include="Resources\drawable\ID_499.png" />
+    <AndroidResource Include="Resources\drawable\ID_500.png" />
+    <AndroidResource Include="Resources\drawable\ID_501.png" />
+    <AndroidResource Include="Resources\drawable\ID_504.png" />
+    <AndroidResource Include="Resources\drawable\ID_507.png" />
+    <AndroidResource Include="Resources\drawable\ID_508.png" />
+    <AndroidResource Include="Resources\drawable\ID_509.png" />
+    <AndroidResource Include="Resources\drawable\ID_510.png" />
+    <AndroidResource Include="Resources\drawable\ID_511.png" />
+    <AndroidResource Include="Resources\drawable\ID_512.png" />
+    <AndroidResource Include="Resources\drawable\ID_513.png" />
+    <AndroidResource Include="Resources\drawable\ID_514.png" />
+    <AndroidResource Include="Resources\drawable\ID_515.png" />
+    <AndroidResource Include="Resources\drawable\ID_516.png" />
+    <AndroidResource Include="Resources\drawable\ID_517.png" />
+    <AndroidResource Include="Resources\drawable\ID_518.png" />
+    <AndroidResource Include="Resources\drawable\ID_519.png" />
+    <AndroidResource Include="Resources\drawable\ID_520.png" />
+    <AndroidResource Include="Resources\drawable\ID_521.png" />
+    <AndroidResource Include="Resources\drawable\ID_522.png" />
+    <AndroidResource Include="Resources\drawable\ID_523.png" />
+    <AndroidResource Include="Resources\drawable\ID_524.png" />
+    <AndroidResource Include="Resources\drawable\ID_525.png" />
+    <AndroidResource Include="Resources\drawable\ID_526.png" />
+    <AndroidResource Include="Resources\drawable\ID_527.png" />
+    <AndroidResource Include="Resources\drawable\ID_528.png" />
+    <AndroidResource Include="Resources\drawable\ID_529.png" />
+    <AndroidResource Include="Resources\drawable\ID_530.png" />
+    <AndroidResource Include="Resources\drawable\ID_531.png" />
+    <AndroidResource Include="Resources\drawable\ID_532.png" />
+    <AndroidResource Include="Resources\drawable\ID_533.png" />
+    <AndroidResource Include="Resources\drawable\ID_534.png" />
+    <AndroidResource Include="Resources\drawable\ID_535.png" />
+    <AndroidResource Include="Resources\drawable\ID_536.png" />
+    <AndroidResource Include="Resources\drawable\ID_539.png" />
+    <AndroidResource Include="Resources\drawable\ID_540.png" />
+    <AndroidResource Include="Resources\drawable\ID_542.png" />
+    <AndroidResource Include="Resources\drawable\ID_543.png" />
+    <AndroidResource Include="Resources\drawable\ID_544.png" />
+    <AndroidResource Include="Resources\drawable\ID_545.png" />
+    <AndroidResource Include="Resources\drawable\ID_546.png" />
+    <AndroidResource Include="Resources\drawable\ID_547.png" />
+    <AndroidResource Include="Resources\drawable\ID_548.png" />
+    <AndroidResource Include="Resources\drawable\ID_549.png" />
+    <AndroidResource Include="Resources\drawable\ID_550.png" />
+    <AndroidResource Include="Resources\drawable\ID_551.png" />
+    <AndroidResource Include="Resources\drawable\ID_552.png" />
+    <AndroidResource Include="Resources\drawable\ID_553.png" />
+    <AndroidResource Include="Resources\drawable\ID_554.png" />
+    <AndroidResource Include="Resources\drawable\ID_556.png" />
+    <AndroidResource Include="Resources\drawable\ID_557.png" />
+    <AndroidResource Include="Resources\drawable\ID_563.png" />
+    <AndroidResource Include="Resources\drawable\ID_564.png" />
+    <AndroidResource Include="Resources\drawable\ID_566.png" />
+    <AndroidResource Include="Resources\drawable\ID_567.png" />
+    <AndroidResource Include="Resources\drawable\ID_568.png" />
+    <AndroidResource Include="Resources\drawable\ID_571.png" />
+    <AndroidResource Include="Resources\drawable\ID_572.png" />
+    <AndroidResource Include="Resources\drawable\ID_573.png" />
+    <AndroidResource Include="Resources\drawable\ID_574.png" />
+    <AndroidResource Include="Resources\drawable\ID_575.png" />
+    <AndroidResource Include="Resources\drawable\ID_576.png" />
+    <AndroidResource Include="Resources\drawable\ID_577.png" />
+    <AndroidResource Include="Resources\drawable\ID_578.png" />
+    <AndroidResource Include="Resources\drawable\ID_579.png" />
+    <AndroidResource Include="Resources\drawable\ID_581.png" />
+    <AndroidResource Include="Resources\drawable\ID_582.png" />
+    <AndroidResource Include="Resources\drawable\ID_583.png" />
+    <AndroidResource Include="Resources\drawable\ID_585.png" />
+    <AndroidResource Include="Resources\drawable\ID_586.png" />
+    <AndroidResource Include="Resources\drawable\ID_587.png" />
+    <AndroidResource Include="Resources\drawable\ID_588.png" />
+    <AndroidResource Include="Resources\drawable\ID_589.png" />
+    <AndroidResource Include="Resources\drawable\ID_592.png" />
+    <AndroidResource Include="Resources\drawable\ID_593.png" />
+    <AndroidResource Include="Resources\drawable\ID_594.png" />
+    <AndroidResource Include="Resources\drawable\ID_595.png" />
+    <AndroidResource Include="Resources\drawable\ID_596.png" />
+    <AndroidResource Include="Resources\drawable\ID_597.png" />
+    <AndroidResource Include="Resources\drawable\ID_598.png" />
+    <AndroidResource Include="Resources\drawable\ID_599.png" />
+    <AndroidResource Include="Resources\drawable\ID_600.png" />
+    <AndroidResource Include="Resources\drawable\ID_601.png" />
+    <AndroidResource Include="Resources\drawable\ID_602.png" />
+    <AndroidResource Include="Resources\drawable\ID_603.png" />
+    <AndroidResource Include="Resources\drawable\ID_605.png" />
+    <AndroidResource Include="Resources\drawable\ID_609.png" />
+    <AndroidResource Include="Resources\drawable\ID_435.png" />
+    <AndroidResource Include="Resources\drawable\ID_450.png" />
+    <AndroidResource Include="Resources\drawable\ID_584.png" />
+    <AndroidResource Include="Resources\drawable\ID_591.png" />
+    <AndroidResource Include="Resources\drawable\ID_606.png" />
+    <AndroidResource Include="Resources\drawable\ID_607.png" />
+    <AndroidResource Include="Resources\drawable\ID_608.png" />
+    <AndroidResource Include="Resources\drawable\ID_610.png" />
+    <AndroidResource Include="Resources\drawable\ID_611.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\logo_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_449.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_537.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_538.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_570.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_590.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_604.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S156.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S265.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S266.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S267.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S268.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S269.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S270.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S271.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S272.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S290.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S295.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S296.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S297.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S298.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ID_S299.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\imgGta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\iconSamp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\logoGta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\skinLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\imgSkinz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\img123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\vehImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\rcImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\sportCarsImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\weaponImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\airImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bikesImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\boatsImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\civImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\fourDoorImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\govImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\heavyImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\heliImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\lowImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\muscleImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\recImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\streetImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\suvImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trailersImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trainsImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\twoDoorImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\lightImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\veh2Img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\airplaneImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bikeImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\boat2Img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\govsImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\helicopterImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\lowsImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\musImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\racerImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\rc2Img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\rec2Img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\servicesImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trailer2Img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\train2Img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\twoCompactImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\utilityImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\vansImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\wagonImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\fourLuxImg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

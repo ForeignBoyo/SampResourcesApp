@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B900E28F-588E-4A47-A58D-F55023AAD8E8}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SampResourcesApp.UWP</RootNamespace>
+    <AssemblyName>SampResourcesApp.UWP</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>SampResourcesApp.UWP_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UWPImages\trailer2Img.png" />
+    <Content Include="UWPImages\train2Img.png" />
+    <Content Include="UWPImages\twoCompactImg.png" />
+    <Content Include="UWPImages\utilityImg.png" />
+    <Content Include="UWPImages\vansImg.png" />
+    <Content Include="UWPImages\wagonImg.png" />
+    <Content Include="UWPImages\veh2Img.png" />
+    <Content Include="UWPImages\airImg.png" />
+    <Content Include="UWPImages\airplaneImg.png" />
+    <Content Include="Assets\LargeTile.scale-100.png" />
+    <Content Include="Assets\LargeTile.scale-200.png" />
+    <Content Include="Assets\LargeTile.scale-400.png" />
+    <Content Include="Assets\SmallTile.scale-100.png" />
+    <Content Include="Assets\SmallTile.scale-200.png" />
+    <Content Include="Assets\SmallTile.scale-400.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="UWPImages\bikesImg.png" />
+    <Content Include="UWPImages\boatsImg.png" />
+    <Content Include="UWPImages\civImg.png" />
+    <Content Include="UWPImages\fourDoorImg.png" />
+    <Content Include="UWPImages\govImg.png" />
+    <Content Include="UWPImages\heavyImg.png" />
+    <Content Include="UWPImages\heliImg.png" />
+    <Content Include="UWPImages\bikeImg.png" />
+    <Content Include="UWPImages\boat2Img.png" />
+    <Content Include="UWPImages\govsImg.png" />
+    <Content Include="UWPImages\helicopterImg.png" />
+    <Content Include="UWPImages\fourLuxImg.png" />
+    <Content Include="UWPImages\ID_0.png" />
+    <Content Include="UWPImages\ID_1.png" />
+    <Content Include="UWPImages\ID_10.png" />
+    <Content Include="UWPImages\ID_11.png" />
+    <Content Include="UWPImages\ID_12.png" />
+    <Content Include="UWPImages\ID_13.png" />
+    <Content Include="UWPImages\ID_14.png" />
+    <Content Include="UWPImages\ID_15.png" />
+    <Content Include="UWPImages\ID_16.png" />
+    <Content Include="UWPImages\ID_17.png" />
+    <Content Include="UWPImages\ID_18.png" />
+    <Content Include="UWPImages\ID_2.png" />
+    <Content Include="UWPImages\ID_22.png" />
+    <Content Include="UWPImages\ID_23.png" />
+    <Content Include="UWPImages\ID_24.png" />
+    <Content Include="UWPImages\ID_25.png" />
+    <Content Include="UWPImages\ID_26.png" />
+    <Content Include="UWPImages\ID_27.png" />
+    <Content Include="UWPImages\ID_274.png" />
+    <Content Include="UWPImages\ID_275.png" />
+    <Content Include="UWPImages\ID_276.png" />
+    <Content Include="UWPImages\ID_277.png" />
+    <Content Include="UWPImages\ID_278.png" />
+    <Content Include="UWPImages\ID_279.png" />
+    <Content Include="UWPImages\ID_28.png" />
+    <Content Include="UWPImages\ID_280.png" />
+    <Content Include="UWPImages\ID_29.png" />
+    <Content Include="UWPImages\ID_3.png" />
+    <Content Include="UWPImages\ID_30.png" />
+    <Content Include="UWPImages\ID_31.png" />
+    <Content Include="UWPImages\ID_32.png" />
+    <Content Include="UWPImages\ID_33.png" />
+    <Content Include="UWPImages\ID_34.png" />
+    <Content Include="UWPImages\ID_35.png" />
+    <Content Include="UWPImages\ID_36.png" />
+    <Content Include="UWPImages\ID_37.png" />
+    <Content Include="UWPImages\ID_38.png" />
+    <Content Include="UWPImages\ID_39.png" />
+    <Content Include="UWPImages\ID_4.png" />
+    <Content Include="UWPImages\ID_40.png" />
+    <Content Include="UWPImages\ID_400.png" />
+    <Content Include="UWPImages\ID_401.png" />
+    <Content Include="UWPImages\ID_402.png" />
+    <Content Include="UWPImages\ID_403.png" />
+    <Content Include="UWPImages\ID_404.png" />
+    <Content Include="UWPImages\ID_405.png" />
+    <Content Include="UWPImages\ID_406.png" />
+    <Content Include="UWPImages\ID_407.png" />
+    <Content Include="UWPImages\ID_408.png" />
+    <Content Include="UWPImages\ID_409.png" />
+    <Content Include="UWPImages\ID_41.png" />
+    <Content Include="UWPImages\ID_410.png" />
+    <Content Include="UWPImages\ID_411.png" />
+    <Content Include="UWPImages\ID_412.png" />
+    <Content Include="UWPImages\ID_413.png" />
+    <Content Include="UWPImages\ID_414.png" />
+    <Content Include="UWPImages\ID_415.png" />
+    <Content Include="UWPImages\ID_416.png" />
+    <Content Include="UWPImages\ID_417.png" />
+    <Content Include="UWPImages\ID_418.png" />
+    <Content Include="UWPImages\ID_419.png" />
+    <Content Include="UWPImages\ID_42.png" />
+    <Content Include="UWPImages\ID_420.png" />
+    <Content Include="UWPImages\ID_421.png" />
+    <Content Include="UWPImages\ID_422.png" />
+    <Content Include="UWPImages\ID_423.png" />
+    <Content Include="UWPImages\ID_424.png" />
+    <Content Include="UWPImages\ID_425.png" />
+    <Content Include="UWPImages\ID_426.png" />
+    <Content Include="UWPImages\ID_427.png" />
+    <Content Include="UWPImages\ID_428.png" />
+    <Content Include="UWPImages\ID_429.png" />
+    <Content Include="UWPImages\ID_43.png" />
+    <Content Include="UWPImages\ID_430.png" />
+    <Content Include="UWPImages\ID_431.png" />
+    <Content Include="UWPImages\ID_432.png" />
+    <Content Include="UWPImages\ID_433.png" />
+    <Content Include="UWPImages\ID_434.png" />
+    <Content Include="UWPImages\ID_435.png" />
+    <Content Include="UWPImages\ID_436.png" />
+    <Content Include="UWPImages\ID_437.png" />
+    <Content Include="UWPImages\ID_438.png" />
+    <Content Include="UWPImages\ID_439.png" />
+    <Content Include="UWPImages\ID_44.png" />
+    <Content Include="UWPImages\ID_440.png" />
+    <Content Include="UWPImages\ID_441.png" />
+    <Content Include="UWPImages\ID_442.png" />
+    <Content Include="UWPImages\ID_443.png" />
+    <Content Include="UWPImages\ID_444.png" />
+    <Content Include="UWPImages\ID_445.png" />
+    <Content Include="UWPImages\ID_446.png" />
+    <Content Include="UWPImages\ID_447.png" />
+    <Content Include="UWPImages\ID_448.png" />
+    <Content Include="UWPImages\ID_449.png" />
+    <Content Include="UWPImages\ID_45.png" />
+    <Content Include="UWPImages\ID_450.png" />
+    <Content Include="UWPImages\ID_451.png" />
+    <Content Include="UWPImages\ID_452.png" />
+    <Content Include="UWPImages\ID_453.png" />
+    <Content Include="UWPImages\ID_454.png" />
+    <Content Include="UWPImages\ID_455.png" />
+    <Content Include="UWPImages\ID_456.png" />
+    <Content Include="UWPImages\ID_457.png" />
+    <Content Include="UWPImages\ID_458.png" />
+    <Content Include="UWPImages\ID_459.png" />
+    <Content Include="UWPImages\ID_46.png" />
+    <Content Include="UWPImages\ID_460.png" />
+    <Content Include="UWPImages\ID_461.png" />
+    <Content Include="UWPImages\ID_462.png" />
+    <Content Include="UWPImages\ID_463.png" />
+    <Content Include="UWPImages\ID_464.png" />
+    <Content Include="UWPImages\ID_465.png" />
+    <Content Include="UWPImages\ID_466.png" />
+    <Content Include="UWPImages\ID_467.png" />
+    <Content Include="UWPImages\ID_468.png" />
+    <Content Include="UWPImages\ID_469.png" />
+    <Content Include="UWPImages\ID_470.png" />
+    <Content Include="UWPImages\ID_471.png" />
+    <Content Include="UWPImages\ID_472.png" />
+    <Content Include="UWPImages\ID_473.png" />
+    <Content Include="UWPImages\ID_474.png" />
+    <Content Include="UWPImages\ID_475.png" />
+    <Content Include="UWPImages\ID_476.png" />
+    <Content Include="UWPImages\ID_477.png" />
+    <Content Include="UWPImages\ID_478.png" />
+    <Content Include="UWPImages\ID_479.png" />
+    <Content Include="UWPImages\ID_480.png" />
+    <Content Include="UWPImages\ID_481.png" />
+    <Content Include="UWPImages\ID_482.png" />
+    <Content Include="UWPImages\ID_483.png" />
+    <Content Include="UWPImages\ID_484.png" />
+    <Content Include="UWPImages\ID_485.png" />
+    <Content Include="UWPImages\ID_486.png" />
+    <Content Include="UWPImages\ID_487.png" />
+    <Content Include="UWPImages\ID_488.png" />
+    <Content Include="UWPImages\ID_489.png" />
+    <Content Include="UWPImages\ID_490.png" />
+    <Content Include="UWPImages\ID_491.png" />
+    <Content Include="UWPImages\ID_492.png" />
+    <Content Include="UWPImages\ID_493.png" />
+    <Content Include="UWPImages\ID_494.png" />
+    <Content Include="UWPImages\ID_495.png" />
+    <Content Include="UWPImages\ID_496.png" />
+    <Content Include="UWPImages\ID_497.png" />
+    <Content Include="UWPImages\ID_498.png" />
+    <Content Include="UWPImages\ID_499.png" />
+    <Content Include="UWPImages\ID_5.png" />
+    <Content Include="UWPImages\ID_500.png" />
+    <Content Include="UWPImages\ID_501.png" />
+    <Content Include="UWPImages\ID_502.png" />
+    <Content Include="UWPImages\ID_503.png" />
+    <Content Include="UWPImages\ID_504.png" />
+    <Content Include="UWPImages\ID_506.png" />
+    <Content Include="UWPImages\ID_507.png" />
+    <Content Include="UWPImages\ID_508.png" />
+    <Content Include="UWPImages\ID_509.png" />
+    <Content Include="UWPImages\ID_510.png" />
+    <Content Include="UWPImages\ID_511.png" />
+    <Content Include="UWPImages\ID_512.png" />
+    <Content Include="UWPImages\ID_513.png" />
+    <Content Include="UWPImages\ID_514.png" />
+    <Content Include="UWPImages\ID_515.png" />
+    <Content Include="UWPImages\ID_516.png" />
+    <Content Include="UWPImages\ID_517.png" />
+    <Content Include="UWPImages\ID_518.png" />
+    <Content Include="UWPImages\ID_519.png" />
+    <Content Include="UWPImages\ID_520.png" />
+    <Content Include="UWPImages\ID_521.png" />
+    <Content Include="UWPImages\ID_522.png" />
+    <Content Include="UWPImages\ID_523.png" />
+    <Content Include="UWPImages\ID_524.png" />
+    <Content Include="UWPImages\ID_525.png" />
+    <Content Include="UWPImages\ID_526.png" />
+    <Content Include="UWPImages\ID_527.png" />
+    <Content Include="UWPImages\ID_528.png" />
+    <Content Include="UWPImages\ID_529.png" />
+    <Content Include="UWPImages\ID_530.png" />
+    <Content Include="UWPImages\ID_531.png" />
+    <Content Include="UWPImages\ID_532.png" />
+    <Content Include="UWPImages\ID_533.png" />
+    <Content Include="UWPImages\ID_534.png" />
+    <Content Include="UWPImages\ID_535.png" />
+    <Content Include="UWPImages\ID_536.png" />
+    <Content Include="UWPImages\ID_537.png" />
+    <Content Include="UWPImages\ID_538.png" />
+    <Content Include="UWPImages\ID_539.png" />
+    <Content Include="UWPImages\ID_540.png" />
+    <Content Include="UWPImages\ID_541.png" />
+    <Content Include="UWPImages\ID_542.png" />
+    <Content Include="UWPImages\ID_543.png" />
+    <Content Include="UWPImages\ID_544.png" />
+    <Content Include="UWPImages\ID_545.png" />
+    <Content Include="UWPImages\ID_546.png" />
+    <Content Include="UWPImages\ID_547.png" />
+    <Content Include="UWPImages\ID_548.png" />
+    <Content Include="UWPImages\ID_549.png" />
+    <Content Include="UWPImages\ID_550.png" />
+    <Content Include="UWPImages\ID_551.png" />
+    <Content Include="UWPImages\ID_552.png" />
+    <Content Include="UWPImages\ID_553.png" />
+    <Content Include="UWPImages\ID_554.png" />
+    <Content Include="UWPImages\ID_555.png" />
+    <Content Include="UWPImages\ID_556.png" />
+    <Content Include="UWPImages\ID_557.png" />
+    <Content Include="UWPImages\ID_558.png" />
+    <Content Include="UWPImages\ID_559.png" />
+    <Content Include="UWPImages\ID_560.png" />
+    <Content Include="UWPImages\ID_561.png" />
+    <Content Include="UWPImages\ID_562.png" />
+    <Content Include="UWPImages\ID_563.png" />
+    <Content Include="UWPImages\ID_564.png" />
+    <Content Include="UWPImages\ID_565.png" />
+    <Content Include="UWPImages\ID_566.png" />
+    <Content Include="UWPImages\ID_567.png" />
+    <Content Include="UWPImages\ID_568.png" />
+    <Content Include="UWPImages\ID_570.png" />
+    <Content Include="UWPImages\ID_571.png" />
+    <Content Include="UWPImages\ID_572.png" />
+    <Content Include="UWPImages\ID_573.png" />
+    <Content Include="UWPImages\ID_574.png" />
+    <Content Include="UWPImages\ID_575.png" />
+    <Content Include="UWPImages\ID_576.png" />
+    <Content Include="UWPImages\ID_577.png" />
+    <Content Include="UWPImages\ID_578.png" />
+    <Content Include="UWPImages\ID_579.png" />
+    <Content Include="UWPImages\ID_580.png" />
+    <Content Include="UWPImages\ID_581.png" />
+    <Content Include="UWPImages\ID_582.png" />
+    <Content Include="UWPImages\ID_583.png" />
+    <Content Include="UWPImages\ID_584.png" />
+    <Content Include="UWPImages\ID_585.png" />
+    <Content Include="UWPImages\ID_586.png" />
+    <Content Include="UWPImages\ID_587.png" />
+    <Content Include="UWPImages\ID_588.png" />
+    <Content Include="UWPImages\ID_589.png" />
+    <Content Include="UWPImages\ID_590.png" />
+    <Content Include="UWPImages\ID_591.png" />
+    <Content Include="UWPImages\ID_592.png" />
+    <Content Include="UWPImages\ID_593.png" />
+    <Content Include="UWPImages\ID_594.png" />
+    <Content Include="UWPImages\ID_595.png" />
+    <Content Include="UWPImages\ID_596.png" />
+    <Content Include="UWPImages\ID_597.png" />
+    <Content Include="UWPImages\ID_598.png" />
+    <Content Include="UWPImages\ID_599.png" />
+    <Content Include="UWPImages\ID_6.png" />
+    <Content Include="UWPImages\ID_600.png" />
+    <Content Include="UWPImages\ID_601.png" />
+    <Content Include="UWPImages\ID_602.png" />
+    <Content Include="UWPImages\ID_603.png" />
+    <Content Include="UWPImages\ID_604.png" />
+    <Content Include="UWPImages\ID_605.png" />
+    <Content Include="UWPImages\ID_606.png" />
+    <Content Include="UWPImages\ID_607.png" />
+    <Content Include="UWPImages\ID_608.png" />
+    <Content Include="UWPImages\ID_609.png" />
+    <Content Include="UWPImages\ID_610.png" />
+    <Content Include="UWPImages\ID_611.png" />
+    <Content Include="UWPImages\ID_7.png" />
+    <Content Include="UWPImages\ID_8.png" />
+    <Content Include="UWPImages\ID_9.png" />
+    <Content Include="UWPImages\ID_S0.png" />
+    <Content Include="UWPImages\ID_S1.png" />
+    <Content Include="UWPImages\ID_S100.png" />
+    <Content Include="UWPImages\ID_S102.png" />
+    <Content Include="UWPImages\ID_S103.png" />
+    <Content Include="UWPImages\ID_S104.png" />
+    <Content Include="UWPImages\ID_S105.png" />
+    <Content Include="UWPImages\ID_S106.png" />
+    <Content Include="UWPImages\ID_S107.png" />
+    <Content Include="UWPImages\ID_S108.png" />
+    <Content Include="UWPImages\ID_S109.png" />
+    <Content Include="UWPImages\ID_S110.png" />
+    <Content Include="UWPImages\ID_S111.png" />
+    <Content Include="UWPImages\ID_S112.png" />
+    <Content Include="UWPImages\ID_S113.png" />
+    <Content Include="UWPImages\ID_S114.png" />
+    <Content Include="UWPImages\ID_S115.png" />
+    <Content Include="UWPImages\ID_S116.png" />
+    <Content Include="UWPImages\ID_S117.png" />
+    <Content Include="UWPImages\ID_S118.png" />
+    <Content Include="UWPImages\ID_S120.png" />
+    <Content Include="UWPImages\ID_S121.png" />
+    <Content Include="UWPImages\ID_S122.png" />
+    <Content Include="UWPImages\ID_S123.png" />
+    <Content Include="UWPImages\ID_S124.png" />
+    <Content Include="UWPImages\ID_S125.png" />
+    <Content Include="UWPImages\ID_S126.png" />
+    <Content Include="UWPImages\ID_S127.png" />
+    <Content Include="UWPImages\ID_S156.png" />
+    <Content Include="UWPImages\ID_S173.png" />
+    <Content Include="UWPImages\ID_S174.png" />
+    <Content Include="UWPImages\ID_S175.png" />
+    <Content Include="UWPImages\ID_S190.png" />
+    <Content Include="UWPImages\ID_S191.png" />
+    <Content Include="UWPImages\ID_S192.png" />
+    <Content Include="UWPImages\ID_S193.png" />
+    <Content Include="UWPImages\ID_S194.png" />
+    <Content Include="UWPImages\ID_S195.png" />
+    <Content Include="UWPImages\ID_S2.png" />
+    <Content Include="UWPImages\ID_S247.png" />
+    <Content Include="UWPImages\ID_S248.png" />
+    <Content Include="UWPImages\ID_S254.png" />
+    <Content Include="UWPImages\ID_S265.png" />
+    <Content Include="UWPImages\ID_S266.png" />
+    <Content Include="UWPImages\ID_S267.png" />
+    <Content Include="UWPImages\ID_S268.png" />
+    <Content Include="UWPImages\ID_S269.png" />
+    <Content Include="UWPImages\ID_S270.png" />
+    <Content Include="UWPImages\ID_S271.png" />
+    <Content Include="UWPImages\ID_S272.png" />
+    <Content Include="UWPImages\ID_S274.png" />
+    <Content Include="UWPImages\ID_S275.png" />
+    <Content Include="UWPImages\ID_S276.png" />
+    <Content Include="UWPImages\ID_S277.png" />
+    <Content Include="UWPImages\ID_S278.png" />
+    <Content Include="UWPImages\ID_S279.png" />
+    <Content Include="UWPImages\ID_S280.png" />
+    <Content Include="UWPImages\ID_S281.png" />
+    <Content Include="UWPImages\ID_S282.png" />
+    <Content Include="UWPImages\ID_S283.png" />
+    <Content Include="UWPImages\ID_S284.png" />
+    <Content Include="UWPImages\ID_S285.png" />
+    <Content Include="UWPImages\ID_S286.png" />
+    <Content Include="UWPImages\ID_S287.png" />
+    <Content Include="UWPImages\ID_S288.png" />
+    <Content Include="UWPImages\ID_S290.png" />
+    <Content Include="UWPImages\ID_S291.png" />
+    <Content Include="UWPImages\ID_S292.png" />
+    <Content Include="UWPImages\ID_S293.png" />
+    <Content Include="UWPImages\ID_S294.png" />
+    <Content Include="UWPImages\ID_S295.png" />
+    <Content Include="UWPImages\ID_S296.png" />
+    <Content Include="UWPImages\ID_S297.png" />
+    <Content Include="UWPImages\ID_S298.png" />
+    <Content Include="UWPImages\ID_S299.png" />
+    <Content Include="UWPImages\streetImg.png" />
+    <Content Include="UWPImages\suvImg.png" />
+    <Content Include="UWPImages\trailersImg.png" />
+    <Content Include="UWPImages\trainsImg.png" />
+    <Content Include="UWPImages\twoDoorImg.png" />
+    <Content Include="UWPImages\weaponImg.png" />
+    <Content Include="UWPImages\sportCarsImg.png" />
+    <Content Include="UWPImages\vehImg.png" />
+    <EmbeddedResource Include="UWPImages\img123.png" />
+    <Content Include="UWPImages\imgSkinz.png" />
+    <Content Include="UWPImages\rcImg.png" />
+    <Content Include="UWPImages\lowImg.png" />
+    <Content Include="UWPImages\muscleImg.png" />
+    <Content Include="UWPImages\recImg.png" />
+    <Content Include="UWPImages\lightImg.png" />
+    <Content Include="UWPImages\lowsImg.png" />
+    <Content Include="UWPImages\musImg.png" />
+    <Content Include="UWPImages\racerImg.png" />
+    <Content Include="UWPImages\rc2Img.png" />
+    <Content Include="UWPImages\rec2Img.png" />
+    <Content Include="UWPImages\servicesImg.png" />
+    <Content Include="UWPImages\skinLogo.png" />
+    <EmbeddedResource Include="UWPImages\logo_1.jpg" />
+    <EmbeddedResource Include="UWPImages\imgGta.jpg" />
+    <Content Include="Properties\Default.rd.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SampResourcesApp\SampResourcesApp.csproj">
+      <Project>{3EF9C17B-A0B1-48A0-96F2-E19C16EFAFAE}</Project>
+      <Name>SampResourcesApp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+</Project>

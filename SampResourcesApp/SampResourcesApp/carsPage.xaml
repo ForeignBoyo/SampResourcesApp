@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampResourcesApp.carsPage"
+             BackgroundColor="LightGray">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <ScrollView>
+                
+
+                <StackLayout>
+
+                    <StackLayout>
+                        <Image Source="UWPImages/veh2Img.png" />
+                    </StackLayout>
+
+
+                    <ImageButton x:Name="btnSportCars"
+                         Source="UWPImages/ID_506.png"
+                                 HorizontalOptions="Center"
+                         Clicked="Button_Clicked" />
+                    <Image Source="UWPImages/racerImg.png" />
+
+                    <!--<Frame BorderColor="Gray"
+                       CornerRadius="5"
+                       Padding="8"
+                        HeightRequest="60"
+                        WidthRequest="60">
+                    <StackLayout>   
+                            <ImageButton x:Name="btnSportCars"
+                         Source="ID_506.png"
+                                 HorizontalOptions="Center"
+                         Clicked="Button_Clicked" />
+                            <BoxView Color="Gray"
+                    HeightRequest="2"
+                    HorizontalOptions="Fill" />
+                    <Label Text="SPORTS CARS"/>
+                        </StackLayout>
+                    </Frame>-->
+
+                    <ImageButton x:Name="btnFourDoorCars"
+                         Source="UWPImages/ID_445.png"
+                         HorizontalOptions="Center"
+                         Clicked="BtnFourDoorCars_Clicked" />
+                    <Image Source="UWPImages/fourLuxImg.png" />
+
+                    <ImageButton x:Name="btnWagon"
+                         Source="UWPImages/ID_400.png"
+                         HorizontalOptions="Center"
+                         Clicked="BtnWagon_Clicked" />
+                    <Image Source="UWPImages/wagonImg.png" />
+
+                    <ImageButton x:Name="btnHeavy"
+                         Source="UWPImages/ID_499.png"
+                         HorizontalOptions="Center"
+                         Clicked="BtnHeavy_Clicked_1"/>
+                    <Image Source="UWPImages/utilityImg.png" />
+
+                    <ImageButton x:Name="btnTwoDoor"
+                         Source="UWPImages/ID_602.png"
+                         HorizontalOptions="Center"     
+                         Clicked="BtnTwoDoor_Clicked" />
+                    <Image Source="UWPImages/twoCompactImg.png" />
+
+                    <ImageButton x:Name="btnMuscle"
+                         Source="UWPImages/ID_402.png"
+                         HorizontalOptions="Center"
+                         Clicked="BtnMuscle_Clicked"/>
+                    <Image Source="UWPImages/musImg.png" />
+
+                    <ImageButton x:Name="btnLowrider"
+                         Source="UWPImages/ID_536.png"
+                         HorizontalOptions="Center"
+                         Clicked="BtnLowrider_Clicked" />
+                    <Image Source="UWPImages/lowsImg.png" />
+
+                    <ImageButton x:Name="btnLightTrucks"
+                         Source="UWPImages/ID_459.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnLightTrucks_Clicked"/>
+                    <Image Source="UWPImages/vansImg.png" />
+
+                    <ImageButton x:Name="btnCivilServices"
+                         Source="UWPImages/ID_485.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnCivilServices_Clicked" />
+                    <Image Source="UWPImages/servicesImg.png" />
+
+                    <ImageButton x:Name="btnGovernVeh"
+                         Source="UWPImages/ID_416.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnGovernVeh_Clicked"/>
+                    <Image Source="UWPImages/govsImg.png" />
+
+                    <ImageButton x:Name="btnBikes"
+                         Source="UWPImages/ID_461.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnBikes_Clicked" />
+                    <Image Source="UWPImages/bikeImg.png" />
+
+                    <ImageButton x:Name="btnAirplanes"
+                         Source="UWPImages/ID_577.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnAirplanes_Clicked"/>
+                    <Image Source="UWPImages/airplaneImg.png" />
+                    
+                    <ImageButton x:Name="btnHeli"
+                         Source="UWPImages/ID_487.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnHeli_Clicked"/>
+                    <Image Source="UWPImages/helicopterImg.png" />
+
+                    <ImageButton x:Name="btnTrailers"
+                         Source="UWPImages/ID_450.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnTrailers_Clicked"/>
+                    <Image Source="UWPImages/trailer2Img.png" />
+
+                    <ImageButton x:Name="btnTrains"
+                         Source="UWPImages/ID_537.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnTrains_Clicked"/>
+                    <Image Source="UWPImages/train2Img.png" />
+
+                    <ImageButton x:Name="btnBoats"
+                         Source="UWPImages/ID_472.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnBoats_Clicked"/>
+                    <Image Source="UWPImages/boat2Img.png" />
+
+                    <ImageButton x:Name="btnRecreational"
+                         Source="UWPImages/ID_568.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnRecreational_Clicked"/>
+                    <Image Source="UWPImages/rec2Img.png" />
+
+                    <ImageButton x:Name="btnRc"
+                         Source="UWPImages/ID_441.png"
+                         HorizontalOptions="Center"        
+                         Clicked="BtnRc_Clicked"/>
+                    <Image Source="UWPImages/rc2Img.png" />
+
+
+
+                </StackLayout>
+            </ScrollView>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

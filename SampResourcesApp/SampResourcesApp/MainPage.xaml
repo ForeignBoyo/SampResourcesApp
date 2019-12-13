@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SampResourcesApp"
+             x:Class="SampResourcesApp.MainPage"
+             Title="SA-MP RESOURCES"
+             BackgroundColor="Black">
+
+    <ContentPage>
+        <ScrollView> 
+        <StackLayout>
+
+            
+
+            <Image x:Name="logoGta" />
+
+            <StackLayout>
+            
+            <Button Text="VEHICLES"
+                    x:Name="BtnCars"
+                    BackgroundColor="White"
+                    TextColor="Black"
+            VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                    Clicked="BtnCars_Clicked"/>
+        </StackLayout>
+
+        <StackLayout>
+            <Button Text="WEAPONS"
+                    x:Name="BtnWeapon"
+                    BackgroundColor="white"
+                    TextColor="Black"
+            VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                    Clicked="BtnWeapon_Clicked"/>
+        </StackLayout>
+
+        <StackLayout>
+            <Button Text="SKINS"
+                    x:Name="BtnSkin"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    FontFamily="arial"
+            VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                    Clicked="BtnSkin_Clicked"/>
+        </StackLayout>
+
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <!-- 
+    <local:carsPage Title="VEHICLE ID'S"/>
+    <local:SkinPage Title="SKIN ID'S" />
+    <local:WeaponsPage Title="WEAPONS ID'S" />-->
+
+
+
+</TabbedPage>

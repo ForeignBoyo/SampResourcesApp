@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampResourcesApp.FourDoorCars"
+             BackgroundColor="Black">
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+                <Image Source="UWPImages/fourDoorImg.png" />
+            </StackLayout>
+
+            <ScrollView>
+                <StackLayout HorizontalOptions="Start">
+
+                    <SearchBar Placeholder="Search items..."
+                   CancelButtonColor="Orange"
+                   PlaceholderColor="Orange"
+                   TextColor="Orange"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Medium"
+                   FontAttributes="Italic" />
+
+                    <StackLayout>
+                        <!-- ID 445-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_445.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Admiral" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 445" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 604-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_604.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Glendale (DAMAGED)" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 604" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 507-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_507.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Elegant" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 507" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 585-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_585.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Emperor" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 585" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 466-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_466.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Glendale" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 466" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 492-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_492.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Greenwood" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 492" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 546-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_546.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Intruder" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 546" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 551-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray"  CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_551.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Merit" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 551" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 516-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_516.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Nebula" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 516" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 467-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_467.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Oceanic" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 467" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+
+                        <!-- ID 426-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_426.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Premier" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 426" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 547-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_547.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Primo" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 547" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 405-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_405.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Sentinel" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 405" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 580-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_580.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Stafford" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 580" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 409-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_409.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Stretch" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 409" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 550-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_550.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Sunrise" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 550" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 566-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_566.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Tahoma" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 566" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 540-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="ID_540.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Vincent" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 540" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 421-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_421.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Washington" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 421" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                        <!-- ID 529-->
+                        <Frame BorderColor="Gray" BackgroundColor="LightGray" CornerRadius="5">
+                            <StackLayout>
+                                <Label Text="Preview" HorizontalOptions="Center"/>
+                                <Image Source="UWPImages/ID_529.png" />
+                                <Frame BorderColor="Gray"  CornerRadius="5">
+                                    <StackLayout>
+                                        <Label Text="Name: Williard" HorizontalOptions="Center"/>
+                                        <Label Text="ID: 529" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+
+                    </StackLayout>
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
